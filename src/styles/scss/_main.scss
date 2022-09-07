@@ -1,0 +1,37 @@
+main {
+  display: grid;
+  grid-template-areas:
+    "img1 img2 img2"
+    "img3 img3 img4"
+    "img5 img6 img4";
+  gap: clamp(3.33%, 3.33%, 32px);
+
+  img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  img:nth-child(1) {
+    grid-area: img1;
+  }
+
+  img:nth-child(2) {
+    grid-area: img2;
+  }
+
+  img:nth-child(3) {
+    grid-area: img3;
+  }
+
+  img:nth-child(4) {
+    grid-area: img4;
+  }
+
+  img:nth-child(5) {
+    grid-area: img5;
+  }
+
+  img:nth-child(6) {
+    grid-area: img6;
+  }
+}
