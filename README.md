@@ -9,12 +9,13 @@ Below you can find the link to deploy the project.
 | About        |                                                                                        |
 | ------------ | -------------------------------------------------------------------------------------- |
 | Name         | **My Gallery**                                                                         |
-| Technologies | HTML5 & Scss                                                                           |
-| URL          | [**https://rwsaraujo.github.io/my-gallery/**](https://rwsaraujo.github.io/my-gallery/) |
+| Technologies | HTML5, SCSS & JavaScript                                                               |
+| Live Site    | [**https://rwsaraujo.github.io/my-gallery/**](https://rwsaraujo.github.io/my-gallery/) |
 
 ## Project Technologies
 
 <div>
   <img src="https://img.shields.io/badge/HTML5-dd4b25?style=for-the-badge&logo=html5&logoColor=fff">
   <img src="https://img.shields.io/badge/scss-c66394?style=for-the-badge&logo=sass&logoColor=fff">
+  <img src="https://img.shields.io/badge/javascript-ff0?style=for-the-badge&logo=javascript&logoColor=000">
 </div>
