@@ -17,5 +17,5 @@ Below you can find the link to deploy the project.
 <div>
   <img src="https://img.shields.io/badge/HTML5-dd4b25?style=for-the-badge&logo=html5&logoColor=fff">
   <img src="https://img.shields.io/badge/scss-c66394?style=for-the-badge&logo=sass&logoColor=fff">
-  <img src="https://img.shields.io/badge/javascript-f2e05a?style=for-the-badge&logo=javascript&logoColor=000">
+  <img src="https://img.shields.io/badge/javascript-ff0?style=for-the-badge&logo=javascript&logoColor=000">
 </div>
