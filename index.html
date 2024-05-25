@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <!-- Meta Tags -->
+  <title>My Gallery</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts | Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./build/style/style.css" />
+  <!-- JS -->
+  <script src="./build/js/script.js" defer></script>
+</head>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./build/style/style.css" />
+<body class="bg-white txt-darkgray">
+  <!-- Header -->
+  <header class="header container flex column center">
+    <div class="header__avatar">
+      <img src="./src/imgs/avatar.png" alt="Rodney Cotton" class="rounded-16" />
+    </div>
 
-    <title>My Gallery</title>
-  </head>
+    <h1 class="montserrat-600">Rodney Cotton</h1>
+    <h2 class="txt-mediumgray montserrat-600">Helsink, Finland</h2>
 
-  <body>
-    <header class="container">
-      <img src="./src/imgs/profilePhoto.png" alt="Rodney Cotton" />
-      <h1>Rodney Cotton</h1>
-      <p>Helsink, Finland</p>
-      <ul>
-        <li><span>100</span>Posts</li>
-        <li><span>2,242</span>Follower</li>
-        <li><span>1,432</span>Following</li>
-      </ul>
-    </header>
+    <ul class="flex">
+      <li class="bg-lightergray montserrat-600 flex column center rounded-12">100 <span
+          class="txt-lightgray montserrat-600">Posts</span>
+      </li>
+      <li class="bg-lightergray montserrat-600 flex column center rounded-12">2,217 <span
+          class="txt-lightgray montserrat-600">Follower</span>
+      </li>
+      <li class="bg-lightergray montserrat-600 flex column center rounded-12">1,432 <span
+          class="txt-lightgray montserrat-600">Following</span>
+      </li>
+    </ul>
+  </header>
 
-    <main class="container">
-      <img src="./src/imgs/photo1.png" alt="A divan and two potted plants." />
-      <img src="./src/imgs/photo2.png" alt="A black sofa." />
-      <img src="./src/imgs/photo3.png" alt="A bathtub." />
-      <img src="./src/imgs/photo4.png" alt="A black lamp." />
-      <img src="./src/imgs/photo5.png" alt="Plants." />
-      <img src="./src/imgs/photo6.png" alt="A table." />
-    </main>
+  <!-- Main -->
+  <main class="main container">
+    <div class="main__gallery grid">
+      <img src="./src/imgs/photo1.jpg" alt="A divan and two potted plants." class="rounded-12" />
+      <img src="./src/imgs/photo2.jpg" alt="A black sofa." class="rounded-12" />
+      <img src="./src/imgs/photo3.jpg" alt="A bathtub." class="rounded-12" />
+      <img src="./src/imgs/photo4.jpg" alt="A black lamp." class="rounded-12" />
+      <img src="./src/imgs/photo5.jpg" alt="Plants." class="rounded-12" />
+      <img src="./src/imgs/photo6.jpg" alt="A table." class="rounded-12" />
+    </div>
+  </main>
 
-    <footer>
-      <span
-        >created by
-        <a href="https://rwsaraujo.github.io/araujowebdev/" target="_blank"
-          >araujowebdev</a
-        >
-        - devChallenges.io</span
-      >
-    </footer>
-  </body>
+  <!-- Footer -->
+  <footer class="footer container txt-silver flex center">
+    <p class="montserrat-500">
+      <span class="current-year montserrat-500"></span>
+      created by
+      <a href="https://github.com/rwsaraujo" target="_blank" class="link montserrat-500">rwsaraujo</a> |
+      <a href="https://devchallenges.io/" target="_blank" class="link montserrat-500">devChallenges.io</a>
+    </p>
+  </footer>
+</body>
+
 </html>

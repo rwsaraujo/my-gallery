@@ -1,20 +1,14 @@
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  font-size: 0.875rem;
-  color: #b9bdcf;
+.footer {
+  height: 3.75rem; /* 60px */
+}
 
-  span {
+// Responsive
+@media screen and (max-width: 420px) {
+  .footer {
+    p,
+    span,
     a {
-      text-decoration: none;
-      font-weight: 700;
-
-      &:hover {
-        text-decoration: underline;
-      }
+      font-size: 0.75rem; /* 12px */
     }
   }
 }

@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.rounded-16 {
+  border-radius: 16px;
+}

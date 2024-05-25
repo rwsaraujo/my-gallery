@@ -1,37 +1,50 @@
-main {
-  display: grid;
-  grid-template-areas:
-    "img1 img2 img2"
-    "img3 img3 img4"
-    "img5 img6 img4";
-  gap: clamp(3.33%, 3.33%, 32px);
+.main {
+  &__gallery {
+    height: fit-content;
+    grid-template-areas:
+      "img1 img2 img2"
+      "img3 img3 img4"
+      "img5 img6 img4";
+    gap: 1.7%; /* >= 16px */
+    margin-bottom: 4rem; /* 64px */
 
-  img {
-    max-width: 100%;
-    border-radius: 12px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    img:nth-child(1) {
+      grid-area: img1;
+    }
+
+    img:nth-child(2) {
+      grid-area: img2;
+    }
+
+    img:nth-child(3) {
+      grid-area: img3;
+    }
+
+    img:nth-child(4) {
+      grid-area: img4;
+    }
+
+    img:nth-child(5) {
+      grid-area: img5;
+    }
+
+    img:nth-child(6) {
+      grid-area: img6;
+    }
   }
+}
 
-  img:nth-child(1) {
-    grid-area: img1;
-  }
-
-  img:nth-child(2) {
-    grid-area: img2;
-  }
-
-  img:nth-child(3) {
-    grid-area: img3;
-  }
-
-  img:nth-child(4) {
-    grid-area: img4;
-  }
-
-  img:nth-child(5) {
-    grid-area: img5;
-  }
-
-  img:nth-child(6) {
-    grid-area: img6;
+// Responsive
+@media screen and (max-width: 400px) {
+  .main {
+    &__gallery {
+      margin-bottom: 2rem; /* 32px */
+    }
   }
 }

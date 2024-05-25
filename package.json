@@ -1,14 +1,16 @@
 {
   "name": "my-gallery",
-  "version": "2.0.0",
-  "description": "My Gallery is a professional photographer's page where he displays his work in a photo gallery.",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/style/style.scss build/style/style.css --style compressed"
+    "sass": "sass --watch src/style/style.scss build/style/style.css --style compressed",
+    "compressjs": "uglifyjs src/js/script.js -c -o build/js/script.js"
   },
-  "author": "Raphael Araujo",
+  "author": "rwsaraujo",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.69.5"
+  "devDependencies": {
+    "sass": "^1.77.2",
+    "uglify-js": "^3.17.4"
   }
 }
